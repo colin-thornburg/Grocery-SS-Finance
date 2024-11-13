@@ -1,0 +1,4 @@
+cost_date,cost_center,cost_type,amount,unit
+2024-01-01,Transportation,Fuel,3.50,per_gallon
+2024-01-01,Transportation,Labor,25.00,per_hour
+2024-01-01,Warehouse,Labor,22.00,per_hour
