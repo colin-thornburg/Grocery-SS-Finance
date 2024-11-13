@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_finance__operating_costs
+    description: This model extracts and formats operating cost data, providing a detailed view of costs by date, center, and type, with precise amounts and units.
+    access: public
+    columns:
+      - name: cost_date
+        description: The date on which the cost was incurred.
+      - name: cost_center
+        description: The department or unit responsible for the cost.
+      - name: cost_type
+        description: The category or nature of the cost.
+      - name: amount
+        description: The monetary value of the cost, formatted to two decimal places.
+      - name: unit
+        description: The unit of measurement associated with the cost.
